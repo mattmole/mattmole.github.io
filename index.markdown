@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Test title
+# Page Name
 
 ## Sub title
 

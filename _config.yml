@@ -28,7 +28,7 @@ twitter_username: mattmole
 github_username:  mattmole
 
 # Build settings
-theme: slate
+theme: minima
 plugins:
   - jekyll-feed
 

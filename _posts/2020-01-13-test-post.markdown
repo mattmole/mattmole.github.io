@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Test Post"
+subtitle: "This is the post subtitle."
 date:   2020-01-13 22:42:36 +0000
 categories: jekyll update
+background: '/images/bg.jpg'
 ---
 
 This is a test

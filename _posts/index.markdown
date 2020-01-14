@@ -3,6 +3,7 @@ layout: page
 title: Posts
 description:
 background: '/img/bg-post.jpg'
+permalink: '/posts/'
 ---
 
 # Posts

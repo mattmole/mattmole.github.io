@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Posts
+description:
 background: '/img/bg-post.jpg'
 ---
 
 # Posts
+
+TEST
 
 {% for post in paginator.posts %}
 

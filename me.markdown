@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-description: A little bit about me...
+description: A little bit about
 background: '/images/bg.jpg'
 ---
 

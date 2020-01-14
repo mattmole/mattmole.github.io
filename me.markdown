@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Page Title
-description: This is the page description.
+title: About me
+description: A little bit about me...
 background: '/images/bg.jpg'
 ---
 

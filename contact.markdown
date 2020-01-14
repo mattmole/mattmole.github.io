@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Page Title
-description: This is the page description.
-background: '/PATH_TO_IMAGE'
+title: Contact
+description: How to contact me
+background: '/images/bg.jpg'
 ---
 
 <form name="sentMessage" id="contactForm" novalidate>

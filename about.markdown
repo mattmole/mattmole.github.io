@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Page Title
-description: This is the page description.
-background: '/PATH_TO_IMAGE'
+title: about
+description: 
+background: '/images/bg.jpg'
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

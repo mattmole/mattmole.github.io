@@ -30,7 +30,7 @@ github_username:  mattmole
 # Build settings
 #theme: minima
 #remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.17.2
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

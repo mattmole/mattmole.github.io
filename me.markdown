@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: About Me!
 layout: page
+permalink: /about/me/
 ---
 
 # About Me

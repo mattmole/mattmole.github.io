@@ -1,4 +1,6 @@
 main:
+  - title: "Home Automation"
+    url: "/home-automation/"
   - title: "Posts"
     url: /posts/
   - title: "Categories"

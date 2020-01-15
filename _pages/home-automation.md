@@ -4,7 +4,7 @@ title: "Home Automation"
 #excerpt: "This post should [...]"
 header:
   overlay_image: /assets/images/bg.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: Matt Holder"
 ---
 
@@ -15,7 +15,7 @@ During the last few years, I have really enjoyed using the [Home Assistant](http
 I have equipment of the following brand:
 
 * [Ikea Tradfri](https://www.ikea.com/gb/en/product-guides/ikea-home-smart-system/) lighting, motion sensor and socket
-* [TP-Link Kasa](https://www.tp-link.com/us/kasa-smart/kasa.html)Wi-Fi plug
+* [TP-Link Kasa](https://www.tp-link.com/us/kasa-smart/kasa.html) Wi-Fi plug
 * Various [Raspberry Pi](https://www.raspberrypi.org/) SBCs with temperature sensors and cameras
 * [Google Nest](https://store.google.com/product/nest_learning_thermostat_3rd_gen) Thermostat
 * [Google home mini](https://store.google.com/product/google_home_mini)
@@ -23,7 +23,6 @@ I have equipment of the following brand:
 * ESP8266 microcontroller boards, linked to Home Assistant with [ESPHome](https://esphome.io/)
 
 # Some of my Projects
-
 ## Temperature sensor and video monitor for certain rooms in the house
 
 This was completed using [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) sensors, raspberry pi camera, raspberry pi zero w SBC and the [motion]() software to use the camera as a live video source. The sensor data was sent to the Home Assistant instance using [MQTT](mqtt.org)

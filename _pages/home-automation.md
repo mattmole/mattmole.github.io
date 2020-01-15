@@ -2,10 +2,6 @@
 permalink: /home-automation/
 title: "Home Automation"
 #excerpt: "This post should [...]"
-header:
-  overlay_image: /assets/images/bg.jpg
-  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: Matt Holder"
 ---
 
 # Home Assistant

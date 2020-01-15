@@ -1,14 +1,12 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "This post should [...]"
+#excerpt: "This post should [...]"
 header:
   overlay_image: /assets/images/bg.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: Matt Holder"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
+ author_profile: true
 ---
 
 I have a strong interest in Information Technology and Photography. In my personal life I enjoy photography when time allows and have spent considerable time taking photographs of landscapes while on holiday.

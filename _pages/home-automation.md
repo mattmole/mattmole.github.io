@@ -56,7 +56,7 @@ Home Automation related blog posts will be linked to below...
 
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
-    {% if tag == homeautomation %}
+    {% if tag == 'homeautomation' %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>

@@ -10,6 +10,7 @@ During the last few years, I have really enjoyed using the [Home Assistant](http
 
 I have equipment of the following brand:
 
+* [Raspberry Pi 3B](https://www.raspberrypi.org/) running [Hass.io]
 * [Ikea Tradfri](https://www.ikea.com/gb/en/product-guides/ikea-home-smart-system/) lighting, motion sensor and socket
 * [TP-Link Kasa](https://www.tp-link.com/us/kasa-smart/kasa.html) Wi-Fi plug
 * Various [Raspberry Pi](https://www.raspberrypi.org/) SBCs with temperature sensors and cameras
@@ -56,7 +57,7 @@ Home Automation related blog posts will be linked to below...
 
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
-    {% if tag == 'homeautomation' %}
+#    {% if tag == 'homeautomation' %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
@@ -68,6 +69,6 @@ Home Automation related blog posts will be linked to below...
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
-    {% endif %}
+#    {% endif %}
   {% endfor %}
 {% endfor %}

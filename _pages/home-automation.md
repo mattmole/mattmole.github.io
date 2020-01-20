@@ -61,8 +61,7 @@ Home Automation related blog posts will be linked to below...
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
     {% if tag[0] == "homeautomation" %}
-# <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-<h2 class="archive__subtitle">{{ tag[0] }}</h2>
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in tag.last %}
             {% include archive-single.html type=page.entries_layout %}

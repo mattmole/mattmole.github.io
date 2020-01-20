@@ -55,19 +55,19 @@ Home Automation related blog posts will be linked to below...
   {% endif %}
 {% endfor %}
 
-<ul class="taxonomy__index">
+#<ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
-        <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
+#        <li>
+#          <a href="#{{ tag[0] | slugify }}">
+#            <strong>{{ tag[0] }}</strong> #<span class="taxonomy__count">{{ i }}</span>
+#          </a>
+#        </li>
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
+#</ul>
 
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}

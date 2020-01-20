@@ -55,9 +55,22 @@ Home Automation related blog posts will be linked to below...
   {% endif %}
 {% endfor %}
 
+<ul class="taxonomy__index">
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.tags %}
+      {% if tag[1].size == i %}
+        <li>
+          <a href="#{{ tag[0] | slugify }}">
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
-#    {% if tag == 'homeautomation' %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
@@ -69,6 +82,5 @@ Home Automation related blog posts will be linked to below...
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
-#    {% endif %}
   {% endfor %}
 {% endfor %}

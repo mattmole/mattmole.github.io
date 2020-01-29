@@ -59,8 +59,7 @@ EdTech related blog posts will be linked to below...
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
 </div>
-<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a></section>
     {% endif %}
     {% endif %}
   {% endfor %}

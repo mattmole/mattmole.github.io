@@ -36,6 +36,10 @@ A switch was added to one of the microcontroller boards and this is used with an
 
 I have a unifi security camera outside the house and the live feed from this is added to the Home Assistant lovelace interface. I have a useful automation setup where a button can be pressed and this live feed is then shown on the TV in the living room
 
+## Dishwasher notification
+
+Using the excellent [post](https://philhawthorne.com/making-dumb-dishwashers-and-washing-machines-smart-alerts-when-the-dishes-and-clothes-are-cleaned/) from Phil Hawthorne, from the [Home Assistant Podcast](https://hasspodcast.io/) I added notifications to my phone when the dishwasher finished its cycle
+
 # Future projects
 
 Some future projects are noted down below:

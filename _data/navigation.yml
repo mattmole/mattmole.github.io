@@ -1,4 +1,6 @@
 main:
+  - title: "EdTech"
+    url: /edtech/
   - title: "Home Automation"
     url: "/home-automation/"
 #  - title: "Posts"

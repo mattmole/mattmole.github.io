@@ -45,6 +45,6 @@ The final step was to create an application pointing to the VMWare Tools install
 
 ![Silent installation flags for VMWare tools](/assets/images/2020-01-31/mdt3.jpg)
 
-When running the task sequence once more, the VMWare tools were installed on the VM at the relevant point in the task sequence.
+When running the task sequence once more, VMWare tools were installed on the VM at the relevant point in the task sequence.
 
 I hope this is useful! If I have time I will look to add steps into the task sequence that would install drivers for other VM platforms, such as virtualbox.

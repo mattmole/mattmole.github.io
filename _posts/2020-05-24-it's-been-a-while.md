@@ -1,6 +1,6 @@
 ---
 title: "It's been a while"
-excerpt: ""
+excerpt: "It's been a little while, and for that, I can only apologise."
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
